@@ -46,21 +46,3 @@ print(result)
 # print("sub",diff)
 # print("mul",prod)
 
-#array operations
-#program to consider a list arr=[10,20,30,40] and perform insert operation and delition operation with 50 and 25 at position 
-#respectively and traverse the array to fetch a number 25 is present or not.''''
-
-
-arr=[10,20,30,40]
-#insert
-arr.append(50)
-arr.insert(2,25)
-print(arr)
-#deletion
-arr.remove(30)
-arr.pop()
-print(arr)
-#traversal
-for i in arr:
-    print(i,end=' ')
-print("\n 25 in array",25 in arr)
